@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Gerador de senha</h1>
+    <div class="display">
+      <button class="copy" title="Copiar para a área de tranferência" >
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-files" viewBox="0 0 16 16">
+          <path d="M13 0H6a2 2 0 0 0-2 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 13V4a2 2 0 0 0-2-2H5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM3 4a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4z"/>
+        </svg>
+      </button>
+      
+      <div class="senha-gerada"> 
+        
+        selecione as opções </div>
+      </div>
+    <label> Quantidade de caracteres:</label>    
+    <input type="number" min="6" max="11" class="qtd-caracter" value="5">
+
+    <br>
+    <label >Adicionar maiúsculas</label>
+    <input type="checkbox" class="maiusculas" checked>
+    <br>
+    <label >Adicionar minúsculas</label>
+    <input type="checkbox" class="minusculas" >
+    <br>
+    <label >Adicionar números</label>
+    <input type="checkbox" class="numeros" >
+    <br>
+    <label >Adicionar símbolos</label>
+    <input type="checkbox" class="simbolos" >
+    <button class="gera-senha">gerar senha</button>
+    
+
+  </section>  
+
+  <script src="./bundle.js"></script>
+</body>
+
+</html>
